@@ -1,4 +1,4 @@
-# Webext-generator
+# Webext-Generator
 
 A tool for quickly generating minimum viable web-extensions for testing submissions etc
 

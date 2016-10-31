@@ -20,7 +20,7 @@
 
   manifest.name = webExtName;
 
-  zip.file('manifest.json', JSON.stringify(manifest));
+  zip.file('manifest.json', JSON.stringify(manifest, null, 4));
   var downloadButton = document.getElementById('download');
   document.getElementById('zipname').innerText = webExtName + '.zip';
 

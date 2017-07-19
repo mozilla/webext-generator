@@ -18,9 +18,9 @@
       manifest_version: 2,
       version: '1.0',
       description: 'A test extension from webext-generator.',
-      icons: {
-        48: 'icons/border-48.png'
-      },
+      // icons: {
+      //  48: 'icons/border-48.png'
+      // },
     };
     manifest.name = webExtName;
     zip.file('manifest.json', JSON.stringify(manifest, null, 4));
